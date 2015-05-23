@@ -1,6 +1,6 @@
 {
   "name": "add-ellipsis",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Cut off a string to a specified length and add an ellipsis",
   "license": "MIT",
   "repository": "arthurvr/ellipsis",
