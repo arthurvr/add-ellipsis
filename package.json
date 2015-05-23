@@ -1,0 +1,33 @@
+{
+  "name": "add-ellipsis",
+  "version": "0.0.0",
+  "description": "Cut off a string to a specified length and add an ellipsis",
+  "license": "MIT",
+  "repository": "arthurvr/ellipsis",
+  "author": {
+    "name": "Arthur Verschaeve",
+    "email": "contact@arthurverschaeve.be",
+    "url": "arthurverschaeve.be"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "length",
+    "substring",
+    "Ellipsis",
+    "dot-dot-dot",
+    "cut",
+    "string",
+    "add"
+  ],
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
