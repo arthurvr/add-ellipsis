@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Cut off a string to a specified length and add an ellipsis",
   "license": "MIT",
-  "repository": "arthurvr/ellipsis",
+  "repository": "arthurvr/add-ellipsis",
   "author": {
     "name": "Arthur Verschaeve",
     "email": "contact@arthurverschaeve.be",
