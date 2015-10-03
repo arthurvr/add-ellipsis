@@ -1,8 +1,7 @@
-'use strict';
-var test = require('ava');
-var ellipsis = require('./');
+import test from 'ava';
+import ellipsis from './';
 
-test('should cut off a string and add an ellipsis', function (t) {
+test('should cut off a string and add an ellipsis', t => {
 	t.is(ellipsis('unicorn', 1), 'u…');
 	t.is(ellipsis('unicorn', 3), 'uni…');
 	t.is(ellipsis('unicorn', 7), 'unicorn…');
@@ -11,14 +10,14 @@ test('should cut off a string and add an ellipsis', function (t) {
 	t.end();
 });
 
-test('The length should default to taking the whole string', function (t) {
+test('The length should default to taking the whole string', t => {
 	t.is(ellipsis('unicorn'), 'unicorn…');
 	t.end();
 });
 
-test('should throw on nonsense input', function (t) {
-	[function () {}, 123, [], null].forEach(function (input) {
-		t.throws(function () {
+test('should throw on nonsense input', t => {
+	[123, [], null].forEach(input => {
+		t.throws(() => {
 			ellipsis(input, 30);
 		});
 	});
