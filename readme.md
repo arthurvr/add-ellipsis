@@ -13,10 +13,10 @@ $ npm install --save add-ellipsis
 ## Usage
 
 ```js
-var addEllipsis = require('add-ellipsis');
+const addEllipsis = require('add-ellipsis');
 
 addEllipsis('unicorns');
-//=> unicorns…
+//=> 'unicorns…'
 
 addEllipsis('Lorem ipsum dolor sit amet', 21);
 //=> 'Lorem ipsum dolor sit…'
